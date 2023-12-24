@@ -11,7 +11,7 @@
  Target Server Version : 80200
  File Encoding         : 65001
 
- Date: 20/12/2023 00:37:18
+ Date: 24/12/2023 21:45:50
 */
 
 SET NAMES utf8mb4;
@@ -28,7 +28,7 @@ CREATE TABLE `x_class`  (
   INDEX `cnum`(`classname` ASC) USING BTREE,
   INDEX `unique`(`tunique` ASC) USING BTREE,
   CONSTRAINT `unique` FOREIGN KEY (`tunique`) REFERENCES `x_teacher` (`tunique`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of x_class

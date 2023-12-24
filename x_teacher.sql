@@ -11,7 +11,7 @@
  Target Server Version : 80200
  File Encoding         : 65001
 
- Date: 20/12/2023 00:37:36
+ Date: 24/12/2023 21:45:31
 */
 
 SET NAMES utf8mb4;
@@ -33,6 +33,6 @@ CREATE TABLE `x_teacher`  (
 -- ----------------------------
 -- Records of x_teacher
 -- ----------------------------
-INSERT INTO `x_teacher` VALUES (1000, '高二', '0000', 't8888');
+INSERT INTO `x_teacher` VALUES (1000, '高二', '0', 't8888');
 
 SET FOREIGN_KEY_CHECKS = 1;
